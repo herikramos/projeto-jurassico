@@ -59,6 +59,12 @@ main {
   border-bottom-right-radius: 10px;
   box-shadow: inset 3px 3px 6px 0px rgba(0, 0, 0, 0.282);
 }
+main > h2{
+  padding-top: 15px;
+}
+main > p {
+  padding: 10px;
+}
 footer {
   background-color: white;
   text-align: center;
