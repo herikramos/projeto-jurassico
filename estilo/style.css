@@ -21,7 +21,7 @@ header, nav {
 }
 body {
   background-color: var(--cor0);
-  background-image: url('../imagens/adam-mathieu-Fl0GNjfFdXg-unsplash\(1\).jpg');
+  background-image: url('../imagens/adam-mathieu-Fl0GNjfFdXg-unsplash\.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
