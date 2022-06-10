@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
 :root{
   --cor0: #c3f3c0;
   --cor1: #7ee081;
@@ -11,4 +15,51 @@
 
   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
   --fonte-destaque: 'Roboto', sans-serif;
+}
+header, nav {
+  font-family: var(--fonte-destaque);
+}
+body {
+  background-color: var(--cor0);
+  background-image: url('../imagens/adam-mathieu-Fl0GNjfFdXg-unsplash\(1\).jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: unset;
+  font-family: var(--fonte-padrao)
+}
+header {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+header > h1 {
+  padding-bottom: 20px;
+}
+header > p {
+  padding: 5px;
+}
+nav {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+nav > a {
+  text-decoration: none;
+  padding: 10px;
+}
+main {
+  background-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: inset 3px 3px 6px 0px rgba(0, 0, 0, 0.282);
+}
+footer {
+  background-color: white;
+  text-align: center;
 }
